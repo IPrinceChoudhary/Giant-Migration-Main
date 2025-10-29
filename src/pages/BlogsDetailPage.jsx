@@ -1,5 +1,5 @@
-import { useParams, useNavigate, Link } from 'react-router';
-import { Calendar, Clock, ArrowLeft, Share2, Bookmark, TrendingUp } from 'lucide-react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { Calendar, Clock, ArrowLeft, TrendingUp } from 'lucide-react';
 import { blogPosts } from '../utils/BlogsData'
 
 export default function BlogDetail() {

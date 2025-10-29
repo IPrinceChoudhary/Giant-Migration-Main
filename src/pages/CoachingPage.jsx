@@ -1,6 +1,6 @@
 // pages/CoachingPage.jsx
 import { useEffect, useRef } from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   ChevronRight, 
