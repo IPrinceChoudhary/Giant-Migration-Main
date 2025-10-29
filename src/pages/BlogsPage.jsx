@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight, TrendingUp, Filter } from 'lucide-react';
 import { blogPosts, categories } from '../utils/BlogsData';
 

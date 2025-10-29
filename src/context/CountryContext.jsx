@@ -1,6 +1,6 @@
 // context/CountryContext.jsx
 import { createContext, useContext, useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const CountryContext = createContext();
 
