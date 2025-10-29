@@ -1,0 +1,77 @@
+{
+  "about": {
+    "heading": "About Giant Migration Australia",
+    "mainText": "Giant Migration is a trusted immigration consultancy based in Australia, helping people turn their migration goals into reality. With 10+ years of experience and a presence across 10+ countries, we offer end-to-end support for smooth and successful immigration journeys to and from Australia.",
+    "founderText": "Founded by Nirbhay Kataria, an Australian resident with over a decade of expertise, Giant Migration has guided 2,500+ clients and 200+ students worldwide. Whether you're moving to Australia for study, work, or a fresh start — or migrating from Australia to other countries — our goal is to make your transition simple and stress-free.",
+    "points": [
+      {
+        "title": "Australian MARA-Registered Experts",
+        "description": "Our team includes Harjinder Singh Chouhan (MARA: 0956110), a registered Australian Migration Agent, and Shivani Hitkari (RCIC: R706882) for Canadian immigration — ensuring every case is handled with professional care and full compliance with Australian and international immigration laws."
+      },
+      {
+        "title": "Based in Australia, Serving Globally",
+        "description": "From our Australian base, we assist clients moving to Canada, UK, Europe, USA, and New Zealand, as well as those coming to Australia. We offer tailored solutions for every destination with deep understanding of Australian credential recognition and visa processes."
+      },
+      {
+        "title": "Transparent Australian Standards",
+        "description": "We follow Australian professional standards with transparent processes, strong ethics, and step-by-step support — from sign-up to visa approval. Our commitment to integrity ensures you receive honest advice and realistic expectations throughout your journey."
+      },
+      {
+        "title": "Local Knowledge, Global Reach",
+        "description": "With our Australian office and presence in 10+ countries including UAE, Qatar, Canada, and India, we combine local Australian insight with international expertise to make quality immigration services accessible at fair pricing."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How can I migrate to Australia from overseas?",
+      "answer": "Australia offers several pathways: Skilled Migration (subclass 189, 190, 491) for professionals in high-demand occupations, Employer Sponsorship (subclass 482, 186) if you have a job offer, Student Visa (subclass 500) leading to post-study work rights, Family Sponsorship if you have relatives in Australia, and Business/Investor visas. The skilled migration program uses a points system based on age, English proficiency, work experience, and qualifications. We assess your profile and recommend the best pathway.",
+      "category": "Australia"
+    },
+    {
+      "question": "What is the points system for Australian PR?",
+      "answer": "Australia's skilled migration uses a points-based system. You need minimum 65 points to be eligible (higher scores increase chances). Points are awarded for: Age (25-32 years = maximum 30 points), English proficiency (IELTS 8 bands = 20 points), Work experience (8+ years = 15-20 points), Education (Bachelor = 15, Master = 20, PhD = 25), Australian qualifications or experience (bonus points), Partner skills, and State nomination (extra points). We help maximize your points through strategic planning.",
+      "category": "Australia"
+    },
+    {
+      "question": "Do I need a skills assessment for Australian migration?",
+      "answer": "Yes, skills assessment is mandatory for skilled migration to Australia. Different occupations have different assessing authorities: Engineers Australia (EA) for engineers, VETASSESS for various professions, CPA/CA/IPA for accountants, ACS for IT professionals, AHPRA for healthcare workers, and TRA for trades. The assessment verifies your qualifications and work experience meet Australian standards. We guide you through the entire skills assessment process and ensure successful outcomes.",
+      "category": "Australia"
+    },
+    {
+      "question": "What are the English requirements for Australian visas?",
+      "answer": "Australian visas require English proficiency through IELTS, PTE Academic, TOEFL iBT, or Cambridge English. For skilled migration: Competent English (IELTS 6.0 each) is minimum, Proficient (IELTS 7.0 each) gives 10 points, Superior (IELTS 8.0 each) gives 20 points. Student visas typically need IELTS 5.5-6.5 depending on the course. Higher English scores significantly improve your migration prospects and points total.",
+      "category": "Australia"
+    },
+    {
+      "question": "How much does it cost to migrate to Australia?",
+      "answer": "Australian migration costs vary by visa type. Skilled visa (189/190): AUD 4,640-7,000 for visa, plus AUD 5,000-10,000 for skills assessment, English tests, medicals, police checks, and document certification. Total typically AUD 15,000-25,000. Student visa: AUD 620 visa fee plus course fees (AUD 20,000-40,000/year). Employer sponsorship: AUD 1,290-5,000. These costs include government fees and professional services. We provide detailed cost breakdowns for your specific situation.",
+      "category": "Australia"
+    },
+    {
+      "question": "Can my family come with me to Australia?",
+      "answer": "Yes! Australian visas allow you to include your spouse/de facto partner and dependent children (under 23 or over 23 if disabled) in your application. They receive the same visa status as you and can work and study in Australia. After you become a PR, you can sponsor parents through Parent visa programs. We assist with complete family applications and ensure all family members meet health and character requirements.",
+      "category": "Australia"
+    },
+    {
+      "question": "What is the processing time for Australian visas?",
+      "answer": "Processing times vary by visa type. Skilled Independent (189): 5-11 months, Skilled Nominated (190): 6-12 months, Employer Sponsored (482/186): 3-8 months, Student Visa: 1-4 months, Partner Visa: 12-24+ months. Times depend on application complexity, skills assessment duration, health and character checks, and current Department of Home Affairs workloads. Complete documentation and proper preparation can help expedite processing.",
+      "category": "Australia"
+    },
+    {
+      "question": "Which occupations are in demand in Australia?",
+      "answer": "Australia's skilled occupation lists (SOL) include: Healthcare (nurses, doctors, allied health), IT & Technology (software developers, analysts, cyber security), Engineering (civil, mechanical, electrical), Construction & Trades (electricians, plumbers, carpenters), Accounting & Finance, Education (teachers, early childhood educators), and Hospitality Management. These occupations face skills shortages and have better migration prospects. We match your skills with in-demand occupations.",
+      "category": "Australia"
+    },
+    {
+      "question": "What is the difference between 189 and 190 Australian visas?",
+      "answer": "Subclass 189 (Skilled Independent): Permanent visa that lets you live anywhere in Australia, no sponsorship needed, requires higher points (typically 85-90+), and takes 5-11 months. Subclass 190 (Skilled Nominated): State-sponsored permanent visa, you must live in sponsoring state for 2 years initially, gives 5 bonus points making it easier to qualify, requires state nomination, and takes 6-12 months. Both lead to PR and eventual citizenship eligibility.",
+      "category": "Australia"
+    },
+    {
+      "question": "Why choose Giant Migration for Australian immigration?",
+      "answer": "Giant Migration is Australian-based with: MARA-registered agent (Harjinder Singh Chouhan, MARA: 0956110) ensuring professional standards, 10+ years Australian migration experience, 2,500+ successful cases, deep understanding of Australian immigration law and processes, transparent approach with no hidden fees, local Australian knowledge and international reach, proven track record of PR approvals, and comprehensive support from skills assessment to visa grant. We're your trusted Australian migration partner.",
+      "category": "Australia"
+    }
+  ]
+}

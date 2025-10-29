@@ -1,0 +1,77 @@
+{
+  "about": {
+    "heading": "About Giant Migration India",
+    "mainText": "Giant Migration is India's trusted immigration consultancy, helping thousands of Indians achieve their dreams of migrating abroad. With 10+ years of experience and a strong presence across 10+ countries, we specialize in providing end-to-end immigration solutions for Indians seeking opportunities in Canada, Australia, USA, UK, Europe, and beyond.",
+    "founderText": "Founded by Nirbhay Kataria, who successfully migrated from India to Australia and brings over a decade of firsthand experience, Giant Migration has guided 2,500+ clients and 200+ students from India. We understand the unique challenges faced by Indian applicants and provide culturally aware, personalized support to make your transition smooth and successful.",
+    "points": [
+      {
+        "title": "Expert Indian Immigration Consultants",
+        "description": "Our team includes licensed experts — Harjinder Singh Chouhan (MARA: 0956110) and Shivani Hitkari (RCIC: R706882) — who specialize in helping Indian nationals with visa applications, ensuring every case meets international compliance standards."
+      },
+      {
+        "title": "Proven Track Record from India",
+        "description": "From our India office, we've helped thousands of Indian families successfully migrate to top destinations including Canada, Australia, USA, UK, Germany, and New Zealand — offering specialized guidance for Indian qualifications and experience."
+      },
+      {
+        "title": "Transparent & Ethical Process",
+        "description": "We follow a completely transparent approach with no hidden fees. Our step-by-step guidance from documentation to visa approval ensures Indian clients always know where they stand in the immigration process."
+      },
+      {
+        "title": "Affordable Services for Indians",
+        "description": "With competitive pricing tailored for the Indian market and offices in Delhi, we make quality immigration services accessible to aspiring migrants across India — combining local expertise with international standards."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can Indians easily migrate to Canada or Australia?",
+      "answer": "Yes! Indians are among the top nationalities successfully migrating to Canada and Australia. Both countries have points-based immigration systems that favor skilled workers, and Indian qualifications (especially in IT, engineering, healthcare, and accounting) are highly valued. Canada's Express Entry and Australia's skilled migration programs actively welcome Indian professionals. With proper documentation, good English proficiency (IELTS/PTE), and expert guidance, Indians have excellent migration prospects.",
+      "category": "India"
+    },
+    {
+      "question": "What is the cost for Indians to migrate to Canada or Australia?",
+      "answer": "For Indians, the total cost varies based on the program. Canada Express Entry typically costs between CAD 10,000-20,000 (₹6-12 lakhs) including visa fees, IELTS, ECA, medicals, and consultancy. Australia skilled migration ranges from AUD 15,000-25,000 (₹8-14 lakhs). Student visas are more affordable. These costs include government fees, document processing, language tests, health checks, and professional services. We offer flexible payment plans for Indian clients.",
+      "category": "India"
+    },
+    {
+      "question": "Do I need IELTS to migrate from India?",
+      "answer": "Yes, English language proficiency tests are mandatory for Indians applying to Canada, Australia, UK, USA, and most English-speaking countries. For Canada, you can take IELTS (General) or CELPIP. For Australia, IELTS, PTE Academic, or TOEFL are accepted. Higher scores improve your points and increase chances of success. Minimum requirements: IELTS 6-7 bands overall (depending on program). We provide IELTS preparation guidance and score improvement strategies.",
+      "category": "India"
+    },
+    {
+      "question": "Which country is easiest for Indians to migrate to?",
+      "answer": "Canada is often considered the easiest for Indians due to: high Express Entry draws specifically inviting Indian IT professionals, recognition of Indian degrees, large Indian diaspora, and family-friendly immigration policies. Australia is also excellent with skilled migration and employer sponsorship options. Germany offers opportunities for IT professionals with relatively faster processing. The 'easiest' depends on your profile — age, education, work experience, and language skills.",
+      "category": "India"
+    },
+    {
+      "question": "Can I take my family with me when migrating from India?",
+      "answer": "Absolutely! Most immigration programs allow you to include your spouse and dependent children (under 22 years) in your application. They receive the same visa status as you. Your family can work, study, and access healthcare in the destination country. For parents, most countries offer separate parent sponsorship programs after you become a permanent resident. We help with complete family documentation and applications.",
+      "category": "India"
+    },
+    {
+      "question": "How long does it take for Indians to get PR in Canada or Australia?",
+      "answer": "For Indians, Canada Express Entry processing typically takes 6-12 months from application to PR approval. Australia skilled migration (subclass 189/190) takes 8-12 months. Provincial Nominee Programs (PNP) may take 12-18 months. Student visa pathways take 2-4 years (study + post-study work + PR). Processing times vary based on your profile completeness, background checks, and current immigration volumes. We help expedite through proper documentation.",
+      "category": "India"
+    },
+    {
+      "question": "What are the best jobs for Indians abroad?",
+      "answer": "Indians excel in: IT & Software Development (high demand in Canada, Australia, USA, Germany), Healthcare (nurses, doctors, pharmacists), Engineering (civil, mechanical, electrical), Accounting & Finance, Teaching, Hospitality Management, and Trades (electricians, plumbers, carpenters). Canada and Australia have skills shortage lists featuring these occupations. We assess your qualifications and match you with in-demand occupations in your target country.",
+      "category": "India"
+    },
+    {
+      "question": "Will my Indian degrees be recognized abroad?",
+      "answer": "Yes, but you need Educational Credential Assessment (ECA). For Canada, WES or IQAS evaluates your Indian degrees. For Australia, VETASSESS or relevant assessing authorities verify qualifications. Most Indian university degrees (UGC-recognized) are accepted. Professional degrees may need additional registration (e.g., doctors, engineers, accountants). We guide you through the entire credential assessment process and ensure your Indian qualifications are properly evaluated.",
+      "category": "India"
+    },
+    {
+      "question": "What is the age limit for Indians to migrate?",
+      "answer": "For skilled migration: Canada and Australia favor ages 25-35 (maximum points), but you can apply until 45-49 years. Student visas have no strict age limit. Work visas depend on employer sponsorship (typically under 45). Younger applicants score higher points, but older applicants with strong profiles still succeed. There's no upper age limit for business/investor visas. We assess your profile and recommend the best pathway regardless of age.",
+      "category": "India"
+    },
+    {
+      "question": "Why choose Giant Migration for my immigration from India?",
+      "answer": "Giant Migration is India's trusted partner with: 10+ years helping Indian clients, 2,500+ successful cases from India, licensed MARA & RCIC consultants who understand Indian documentation, presence in Delhi and 10+ countries, 100% transparent processes with no hidden fees, specialized knowledge of Indian qualifications and credentials, culturally aware support in Hindi/English, and proven track record of Indian families successfully settling abroad. We're with you from application to landing.",
+      "category": "India"
+    }
+  ]
+}

@@ -1,145 +1,128 @@
-import { useState, useEffect } from "react";
 import {
-  Play,
-  CheckCircle,
   Users,
-  FileText,
-  GraduationCap,
-  Globe,
+  Target,
+  DollarSign,
+  Heart,
+  TrendingUp,
+  Award,
+  Globe2,
+  Headphones,
 } from "lucide-react";
-import { FaArrowRight } from "react-icons/fa";
-import Button from "./ui/Buttons";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import c1 from "../assets/coaching-1.jpg";
 import c2 from "../assets/coaching-2.jpg";
 import c3 from "../assets/coaching-3.jpg";
 import c4 from "../assets/coaching-4.jpg";
+import { motion } from "motion/react";
+import { Link } from "react-router";
 
 const Choose = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
   const advantages = [
     {
-      icon: <FileText className="w-5 h-5" />,
-      title: "Free Consultation",
-      description: "No hidden cost",
-    },
-    {
-      icon: <CheckCircle className="w-5 h-5" />,
-      title: "100% Transparency",
-      description: "Complete profile evaluation",
-    },
-    {
       icon: <Users className="w-5 h-5" />,
-      title: "Dedicated Manager",
-      description: "Professional case support",
+      title: "Personalised Consultation",
+      description: "Tailored guidance for your unique journey",
     },
     {
-      icon: <Globe className="w-5 h-5" />,
-      title: "Super Visa",
-      description: "Parent visa assistance",
+      icon: <Globe2 className="w-5 h-5" />,
+      title: "Global Network",
+      description: "Connections across multiple countries",
     },
     {
-      icon: <GraduationCap className="w-5 h-5" />,
-      title: "Virtual Classes",
-      description: "Online study materials",
+      icon: <DollarSign className="w-5 h-5" />,
+      title: "Cost-effective",
+      description: "Affordable with transparent pricing",
     },
     {
-      icon: <Play className="w-5 h-5" />,
-      title: "Physical Classes",
-      description: "On-demand training",
+      icon: <Heart className="w-5 h-5" />,
+      title: "Customer-Centric Approach",
+      description: "Your satisfaction is our priority",
+    },
+    {
+      icon: <Award className="w-5 h-5" />,
+      title: "Professional Team",
+      description: "Licensed experts with proven track record",
+    },
+    {
+      icon: <TrendingUp className="w-5 h-5" />,
+      title: "High Success Rate",
+      description: "Consistent positive outcomes",
+    },
+    {
+      icon: <Target className="w-5 h-5" />,
+      title: "Reputation Built on Relationships",
+      description: "Trust and integrity in every interaction",
+    },
+    {
+      icon: <Headphones className="w-5 h-5" />,
+      title: "Dedicated Support",
+      description: "Continuous assistance throughout",
     },
   ];
 
   const visaTypes = [
-    { name: "Citizenship Test", image: c1 },
+    { name: "Mock Interviews", image: c1 },
     { name: "IELTS Coaching", image: c2 },
     { name: "TOEFL Coaching", image: c3 },
     { name: "PTE Coaching", image: c4 },
   ];
 
+  const getServiceSlug = (name) => {
+    return name.toLowerCase().replace(/\s+/g, "-");
+  };
+
   return (
-    <div className="bg-gradient-to-br lg:py-20 from-bg via-surface to-brand-50 overflow-hidden">
-      <div className="h-full max-w-7xl mx-auto px-6 py-8 flex flex-col">
+    <section className="bg-gradient-to-br from-bg via-surface to-brand-50 py-16 lg:py-24 lg:px-20 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div
-          className={`text-center lg:mb-16 mb-16 transform transition-all duration-1000 ${
-            isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-          }`}
-        >
-          <h1
-            className="text-3xl lg:text-4xl mb-4 
-               bg-gradient-to-r from-maroon-dark via-brand-300 to-maroon-dark
-               bg-[length:200%_200%] bg-clip-text text-transparent 
-               font-heading font-bold 
-               animate-gradient-x"
-          >
-            Why Choose Us?
-          </h1>
-          <p className="text-sm text-muted font-body">
+        <div className="mb-10">
+          <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-center">
+            <span className="bg-gradient-to-r from-maroon-dark via-brand to-maroon-dark bg-clip-text text-transparent font-heading">
+              Why Choose Us?
+            </span>
+          </h2>
+          <p className="text-lg text-gray-600 text-center">
             Professional services with complete transparency and dedicated
-            support
+            support throughout your immigration journey
           </p>
         </div>
 
-        {/* Main Content Grid */}
-        <div className="flex-1 grid grid-cols-1 lg:grid-cols-3 gap-6 min-h-0">
-          {/* Left Column - Video */}
-          <div
-            className={`lg:col-span-1 transform transition-all duration-1000 delay-200 ${
-              isVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-10 opacity-0"
-            }`}
+        {/* Main Content Grid - 2 Column Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+          {/* Left Column - Client Advantages */}
+          <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="flex justify-center items-center"
           >
-            <div className="h-full bg-gradient-to-br from-brand-50 to-brand-200 rounded-xl p-3 hover:shadow-lg transition-all duration-500 hover:scale-105 group">
-              <div className="relative h-full rounded-lg overflow-hidden bg-black">
-                <iframe
-                  src="https://www.youtube.com/embed/i67rbcInjrY"
-                  title="Immigration Services"
-                  className="w-full lg:h-2/3 lg:mt-20"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-
-          {/* Middle Column - Advantages */}
-          <div
-            className={`lg:col-span-1 transform transition-all duration-1000 delay-400 ${
-              isVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-10 opacity-0"
-            }`}
-          >
-            <div className="h-full bg-bg rounded-xl p-4 shadow-lg">
-              <div className="text-center mb-4">
-                <h2 className="text-xl font-bold text-brand-dark mb-2 font-heading">
-                  Client Advantages
-                </h2>
-                <div className="w-16 h-0.5 bg-gradient-to-r from-brand to-brand-dark mx-auto rounded-full"></div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 lg:p-8 shadow-xl border border-brand-100 h-full flex flex-col">
+              <div className="text-center mb-6">
+                <h3 className="text-xl lg:text-2xl font-bold text-brand-dark mb-3 font-heading">
+                  Why Choose Giant Migration?
+                </h3>
+                <div className="w-20 h-1 bg-gradient-to-r from-brand to-brand-dark mx-auto rounded-full"></div>
               </div>
 
-              <div className="grid grid-cols-1 gap-3">
+              <div className="grid grid-cols-1 gap-3 flex-1">
                 {advantages.map((advantage, index) => (
                   <div
                     key={index}
-                    className={`group relative bg-gradient-to-r from-surface to-brand-50 rounded-lg p-3 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1`}
+                    className="group relative bg-gradient-to-r from-white to-brand-50/50 rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-brand-200 overflow-hidden"
                   >
-                    <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-gradient-to-br from-brand to-brand-dark rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+                    {/* Animated background effect */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-brand/0 via-brand/5 to-brand/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out"></div>
+
+                    <div className="relative flex items-center space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-brand to-brand-dark rounded-xl flex items-center justify-center text-white shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 flex-shrink-0">
                         {advantage.icon}
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-sm font-semibold text-text group-hover:text-brand-dark transition-colors duration-300 truncate font-heading">
+                        <h3 className="text-base lg:text-lg font-semibold text-text group-hover:text-brand-dark transition-colors duration-300 font-heading">
                           {advantage.title}
                         </h3>
-                        <p className="text-xs text-muted group-hover:text-text transition-colors duration-300 font-body">
+                        <p className="text-sm text-muted group-hover:text-text transition-colors duration-300 font-body">
                           {advantage.description}
                         </p>
                       </div>
@@ -148,64 +131,104 @@ const Choose = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          {/* Right Column - Visa Types & CTA */}
-          <div
-            className={`lg:col-span-1 transform transition-all duration-1000 delay-600 ${
-              isVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-10 opacity-0"
-            }`}
+          {/* Right Column - Video & Coaching Services */}
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+            viewport={{ once: true, amount: 0.3 }}
           >
-            <div className="h-full flex flex-col space-y-4">
-              {/* Visa Types */}
-              <div className="flex-1 grid grid-cols-2 gap-2 p-2 bg-brand-50 rounded-lg">
-                {visaTypes.map((visa, index) => (
-                  <div                  
-                    key={index}
-                    style={{ backgroundImage: `url(${visa.image})` }}
-                    className="
-        group relative rounded-lg p-2 text-center w-35 h-35 sm:w-45 sm:h-45 transition-all duration-300
-        cursor-pointer transform hover:scale-105 flex flex-col items-center justify-center
-        bg-cover bg-center
-      "
-                  >
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 rounded-lg transition-colors duration-300"></div>
+            <div className="h-full flex flex-col space-y-6">
+              {/* Video Section with Laptop Frame */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 lg:p-8 shadow-xl border border-brand-100 flex-1">
+                <div className="text-center mb-6">
+                  <h3 className="text-xl lg:text-2xl font-bold text-brand-dark mb-3 font-heading">
+                    Watch Our Story
+                  </h3>
+                  <div className="w-20 h-1 bg-gradient-to-r from-brand to-brand-dark mx-auto rounded-full"></div>
+                </div>
 
-                    {/* Content */}
-                    <div className="relative z-10 flex flex-col items-center justify-center">
-                      <h3 className="font-normal sm:font-bold text-white transition-colors duration-300 text-sm sm:text-md text-center font-heading">
-                        {visa.name}
-                      </h3>
-                      <FaArrowTrendUp className="text-white w-4 sm:w-6 h-4 sm:h-6"/>
+                <div className="relative">
+                  {/* Laptop Frame */}
+                  <div className="relative mx-auto max-w-full">
+                    {/* Screen */}
+                    <div className="relative bg-gray-800 rounded-t-2xl p-2 sm:p-3 shadow-2xl">
+                      {/* Camera notch */}
+                      <div className="absolute top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-700 rounded-full"></div>
+
+                      {/* Video Container */}
+                      <div
+                        className="relative bg-black rounded-lg overflow-hidden"
+                        style={{ aspectRatio: "16/10" }}
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/i67rbcInjrY"
+                          title="Immigration Services"
+                          className="w-full h-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        ></iframe>
+                      </div>
+                    </div>
+
+                    {/* Laptop Base */}
+                    <div className="relative h-2 sm:h-3 bg-gradient-to-b from-gray-700 to-gray-800 rounded-b-2xl shadow-lg">
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-50"></div>
+                    </div>
+
+                    {/* Laptop Stand */}
+                    <div className="relative h-1">
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-24 sm:w-32 h-1 bg-gradient-to-r from-transparent via-gray-600 to-transparent"></div>
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
 
-              {/* CTA Section */}
-              <div className="bg-gradient-to-r from-brand-50 to-surface rounded-xl p-4">
-                <div className="text-center">
-                  <h3 className="text-lg font-bold text-brand-dark mb-2 font-heading">
-                    Ready to Start?
+              {/* Coaching Services Section */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 lg:p-8 shadow-xl border border-brand-100">
+                <div className="text-center mb-6">
+                  <h3 className="text-xl lg:text-2xl font-bold text-brand-dark mb-3 font-heading">
+                    Our Coaching Services
                   </h3>
-                  <p className="text-text mb-3 text-sm font-body">
-                    Free consultation available
-                  </p>
-                  <Button
-                    text="Get Started Today"
-                    variant="get"
-                    icon={FaArrowRight}
-                  />
+                  <div className="w-20 h-1 bg-gradient-to-r from-brand to-brand-dark mx-auto rounded-full"></div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  {visaTypes.map((visa, index) => (
+                    <Link
+                      key={index}
+                      to={`/coaching#${getServiceSlug(visa.name)}`}
+                      className="group relative rounded-xl overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-xl"
+                    >
+                      {/* Background Image */}
+                      <div
+                        style={{ backgroundImage: `url(${visa.image})` }}
+                        className="h-32 lg:h-36 bg-cover bg-center relative"
+                      >
+                        {/* Gradient Overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/20 group-hover:from-black/60 group-hover:via-black/30 group-hover:to-black/10 transition-all duration-300"></div>
+
+                        {/* Content */}
+                        <div className="relative z-10 h-full flex flex-col items-center justify-center p-4">
+                          <h3 className="font-bold text-white text-sm lg:text-base text-center mb-2 font-heading drop-shadow-lg">
+                            {visa.name}
+                          </h3>
+                          <div className="opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <FaArrowTrendUp className="text-white w-5 h-5 lg:w-6 lg:h-6 drop-shadow-lg" />
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

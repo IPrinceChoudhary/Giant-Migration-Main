@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 const Stats = () => {
   const stats = [
-    { number: 1000, suffix: "+", label: "Successful Cases" },
-    { number: 25, suffix: "+", label: "Countries" },
-    { number: 98, suffix: "%", label: "Success Rate" },
+    { number: 2500, suffix: "+", label: "Happy Clients" },
+    { number: 10, suffix: "+", label: "Countries" },
+    { number: 100, suffix: "%", label: "Satisfaction" },
   ];
 
   const [counts, setCounts] = useState(stats.map(() => 0));

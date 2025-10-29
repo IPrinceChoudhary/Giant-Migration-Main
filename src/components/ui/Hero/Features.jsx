@@ -4,7 +4,7 @@ const Features = () => {
   const features = [
     {
       icon: <FaGlobe className="text-2xl text-brand mb-2" />,
-      title: "Full Global Reach",
+      title: "Global Reach",
       desc: "All Across Borders",
     },
     {
@@ -14,15 +14,15 @@ const Features = () => {
     },
     {
       icon: <FaClock className="text-2xl text-brand mb-2" />,
-      title: "Fast Processing",
+      title: "Fast Process",
       desc: "Quick turnaround",
     },
   ];
 
   // Feature Card Component
   const FeatureCard = ({ icon, title, desc }) => (
-    <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg py-2 px-1 lg:p-4 text-center hover:bg-white/20 transition-all duration-300">
-      <div className="flex justify-center">{icon}</div>
+    <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg py-4 px-1 lg:p-8 text-center hover:bg-white/20 transition-all duration-300">
+      <div className="flex justify-center my-1">{icon}</div>
       <h4 className="font-heading font-semibold text-sm mb-1 text-white">
         {title}
       </h4>

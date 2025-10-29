@@ -12,6 +12,7 @@ html {
   --color-brand-200: #c28c70;
   --color-brand-300: #dcbdad;
   --color-brand-50: #f1e6e0;
+  --color-headings: #7D4A3F;
 
   --color-maroon-dark: #4e140f;
   --color-maroon: #6e2a22;
@@ -31,17 +32,6 @@ html {
   --animate-gradient-x: gradient-x 6s ease infinite;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .typing-cursor::after {
   content: "|";
   animation: blink 1s infinite;
@@ -56,65 +46,5 @@ html {
   51%,
   100% {
     opacity: 0;
-  }
-}
-
-.gradient-text {
-  background: linear-gradient(135deg, #a85b33 0%, #6e2a22 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.floating-animation {
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-.hero-gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.9) 0%,
-    rgba(34, 34, 34, 0.7) 30%,
-    rgba(34, 34, 34, 0.4) 60%,
-    rgba(34, 34, 34, 0.1) 100%
-  );
-}
-
-.hero-bg {
-  background-image: url("https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-  .hero-gradient {
-    background: linear-gradient(
-      180deg,
-      rgba(34, 34, 34, 0.9) 0%,
-      rgba(34, 34, 34, 0.7) 40%,
-      rgba(34, 34, 34, 0.4) 70%,
-      rgba(34, 34, 34, 0.2) 100%
-    );
-  }
-}
-
-@keyframes gradient-x {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
   }
 }
