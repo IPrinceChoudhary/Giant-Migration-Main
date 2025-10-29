@@ -4,7 +4,7 @@ import Button from "../../ui/Buttons";
 import { motion } from "framer-motion";
 import { useCountry } from "../../../context/CountryContext";
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   const { currentCountry } = useCountry();

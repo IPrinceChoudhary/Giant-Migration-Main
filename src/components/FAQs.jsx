@@ -1,7 +1,7 @@
 // components/FAQ.jsx
 import { useState, useEffect } from "react";
 import { ChevronDown, MessageCircle, Phone } from "lucide-react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCountry } from "../context/CountryContext";
 

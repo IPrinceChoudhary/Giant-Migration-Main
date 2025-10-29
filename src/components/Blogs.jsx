@@ -1,6 +1,6 @@
 // components/HomeBlogSection.jsx
 import { Calendar, Clock, ArrowRight, TrendingUp } from "lucide-react";
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { blogPosts } from "../utils/BlogsData";
 

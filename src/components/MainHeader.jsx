@@ -1,7 +1,7 @@
 // components/MainHeader.jsx
 import { useState } from "react";
 import { FaBars, FaTimes, FaChevronDown, FaChevronRight } from "react-icons/fa";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
 import Button from "./ui/Buttons";
 import { migrationData } from "../utils/MigrationData";

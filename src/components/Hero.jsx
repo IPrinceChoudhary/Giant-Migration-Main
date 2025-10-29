@@ -3,7 +3,7 @@ import Stats from "./ui/Hero/Stats";
 import TypewriterEffect from "./ui/Hero/TypewriterEffect";
 import Features from "./ui/Hero/Features";
 import Button from "./ui/Buttons";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Main Hero Component
 const HeroComponent = () => {

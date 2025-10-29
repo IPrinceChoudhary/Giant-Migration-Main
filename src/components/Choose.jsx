@@ -14,7 +14,7 @@ import c2 from "../assets/coaching-2.jpg";
 import c3 from "../assets/coaching-3.jpg";
 import c4 from "../assets/coaching-4.jpg";
 import { motion } from "motion/react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Choose = () => {
   const advantages = [

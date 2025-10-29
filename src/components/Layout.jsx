@@ -1,7 +1,7 @@
 import MainHeader from "./MainHeader"
 import Footer from "./Footer"
 import StickySidebar from "./StickySidebar"
-import { Outlet } from "react-router"
+import { Outlet } from "react-router-dom"
 
 const Layout = () => {
   return (

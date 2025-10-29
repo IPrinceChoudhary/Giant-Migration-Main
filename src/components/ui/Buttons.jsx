@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Button = ({ text, to, onClick, variant = "get", icon: Icon, iconPosition = "right" }) => {
   const baseStyle =
