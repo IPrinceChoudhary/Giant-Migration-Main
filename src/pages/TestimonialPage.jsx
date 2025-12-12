@@ -11,9 +11,9 @@ const TestimonialsPage = () => {
   const successVideos = [
     {
       id: 1,
-      videoId: "TvLmrov4Gwc",
-      title: "Client Success Story - Canada PR",
-      description: "Watch how we helped this family achieve their Canadian dream"
+      videoId: "4de7CHTQ8dY",
+      title: "Express Entry Success - Canada",
+      description: "Fast-tracked PR approval story"
     },
     {
       id: 2,
@@ -29,9 +29,9 @@ const TestimonialsPage = () => {
     },
     {
       id: 4,
-      videoId: "4de7CHTQ8dY",
-      title: "Express Entry Success - Canada",
-      description: "Fast-tracked PR approval story"
+      videoId: "TvLmrov4Gwc",
+      title: "Client Success Story - Canada PR",
+      description: "Watch how we helped this family achieve their Canadian dream",
     },
     {
       id: 5,

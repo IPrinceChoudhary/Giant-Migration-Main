@@ -319,7 +319,7 @@ const AboutPage = () => {
     credentials: "Immigration Industry Expert",
     image: Nirbhay,
     linkedin: "https://www.linkedin.com/in/nirbhay-kataria-125939122/",
-    bio: "I have 10+ years of experience in the immigration industry and have successfully guided thousands of aspirants through the complexity of the immigration process. I believe in fostering a culture of collaboration, innovation, and integrity. Above all, our mission is centered on fulfilling our clients' visions of a life abroad.",
+    bio: "Nirbhay Kataria brings over 10 years of experience in the immigration industry and has successfully guided thousands of aspirants through the complexities of global immigration processes. He fosters a culture of collaboration, innovation, and integrity, with a mission focused on helping clients achieve their dreams of building a life abroad.",
     quote:
       "Your vision, our mission - together we make immigration dreams a reality.",
   },
@@ -331,7 +331,7 @@ const AboutPage = () => {
     credentials: "Immigration Industry Expert",
     image: Divya,
     linkedin: "https://www.linkedin.com/in/divyaa-kataria-1933361b5/",
-    bio: "Industrial psychology is redefining what makes a successful workplace, making employers and employees life easier. With my certifications and skills acquired, I can implement effective solutions that meet company needs.",
+    bio: "Divya Kataria specializes in industrial psychology and applies her expertise to redefine what makes a workplace successful. With her certifications and professional experience, she implements effective solutions that enhance organizational performance and employee well-being.",
     quote:
       "Building workplaces where people and purpose thrive together.",
   },
@@ -343,7 +343,7 @@ const AboutPage = () => {
     credentials: "RCIC (R706882)",
     image: Shivani,
     linkedin: "https://www.linkedin.com/in/shivani-hitkari-6b4103219/",
-    bio: "Licensed Regulated Canadian Immigration Consultant with extensive experience in Express Entry, Provincial Nominee Programs, and Family Class sponsorship. Committed to providing personalized and professional immigration services.",
+    bio: "Shivani Hitkari is a Licensed Regulated Canadian Immigration Consultant with extensive experience in Express Entry, Provincial Nominee Programs, and Family Class sponsorship. She is dedicated to providing personalized, accurate, and professional immigration services to clients pursuing Canadian permanent residency.",
     quote:
       "Every successful application represents a dream fulfilled and a new beginning.",
   },
@@ -355,11 +355,12 @@ const AboutPage = () => {
     credentials: "MARA (0956110)",
     image: Harjinder,
     linkedin: "https://www.linkedin.com/in/harjinder-chouhan",
-    bio: "Registered Migration Agent with the Migration Agents Registration Authority (MARA). Specializes in skilled visas, employer-sponsored programs, and business immigration to Australia.",
+    bio: "Harjinder Singh Chouhan is a Registered Migration Agent with the Migration Agents Registration Authority (MARA). He specializes in skilled visas, employer-sponsored programs, and business immigration to Australia, offering clients professional guidance with integrity and expertise.",
     quote:
       "Expertise, integrity, and dedication - the foundation of successful migration.",
   },
 ];
+
 
 
   const destinations = [
